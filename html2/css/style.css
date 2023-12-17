@@ -1,0 +1,381 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 48px;
+    margin-bottom: 42px;
+}
+
+header>div {
+    width: 50%;
+}
+
+header>div p {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    margin-left: 42px;
+}
+
+header>nav {
+    width: 50%;
+}
+
+header>nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
+    margin-right: 42px;
+}
+
+header>nav ul li {
+    list-style: none;
+}
+
+header>nav ul li a {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    color: #2D2D2D;
+    text-decoration: none;
+}
+
+main {
+    width: 100%;
+}
+
+main .brand-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 68px;
+}
+
+main .brand-section .brand-text {
+    width: 50%;
+    height: 360px;
+    margin-left: 42px;
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-start;
+    gap: 20px;
+}
+
+main .brand-section .brand-text h3 {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+main .brand-section .brand-text h1 {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+main .brand-section .brand-text p {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 48px;
+}
+
+main .brand-section .brand-text button {
+    width: 150px;
+    display: flex;
+    padding: 16px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    background-color: #2D2D2D;
+}
+
+main .brand-section .brand-img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .image-section{
+    margin-top: 85px;
+
+}
+.img_picture{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 42px;
+}
+.img_picture img{
+    object-fit: contain;
+}
+
+
+.skills-section{
+    width: 100%;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.skills-section>div{
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.skills-section>div img{
+    width: 50%;
+    object-fit: cover;
+}
+.skills-section>div h2{
+    font-family: 'Epilogue', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 42px;
+}
+.skills-section>div p{
+    font-family: 'Epilogue', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    text-align-last: center;
+}
+.desc-section{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.desc-section-title{
+    font-family: 'Epilogue', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 42px;
+    color: #2D2D2D;
+    margin-bottom: 20px;
+}
+.desc-section>div{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.desc-section>div div{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+}
+.desc-section>div div h3{
+    margin-left: 29px;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    color: #2D2D2D;
+}
+.desc-section>div div p{
+    margin-left: 29px;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    color: #2D2D2D;
+}
+
+.desc-section>div img{
+    width: 85%;
+    align-self: center;
+}
+
+.desc-section-container>div:nth-child(4){
+    margin-top: 30px;
+}
+.desc-section-container>div:nth-child(5){
+    margin-top: 30px;
+}
+.desc-section-container>div:nth-child(6){
+    margin-top: 30px;
+}
+
+
+.testimonial-section{
+    width: 100%;
+    margin-top: 90px;
+}
+.testimonial-section>div{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.testimonial-section>div>div{
+    width: 30%;
+    padding: 60px 0;
+    background-color: #f3f3f3;
+}
+.testimonial-section>div>div p{
+    width: 70%;
+    margin: auto;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    color: #2D2D2D;
+    margin-bottom: 30px;
+}
+.testimonial-section>div>div h5{
+    font-family: 'Epilogue',sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    color: #2D2D2D;
+}
+.testimonial-section>div>div span{
+    font-family: 'Epilogue', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    color: rgba(0,0,0, .5);
+}
+
+
+
+.testimonial-section-footer{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.testimonial-section>h2{
+    font-family: 'Epilogue', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 42px;
+    color: #2D2D2D;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.testimonial-section-footer i{
+    margin-bottom: 10px;
+}
+.testimonial-section-footer>div:nth-child(1){
+width: 20%;
+}
+.testimonial-section-footer>div:nth-child(2){
+width: 80%;
+margin-left: 20px;
+margin-top: 20px;
+}
+
+
+footer{
+    width: 100%;
+}
+
+.footer-section{
+    width: 87%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-section>div{
+    width: 50%;
+}
+
+.footer-section form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.footer-section form input{
+    width: 60%;
+    padding: 12px 24px;
+    background-color: #f3f3f3;
+    border: 0;
+    outline: 0;
+    align-self: flex-end;
+}
+.footer-section form button{
+    width: 20%;
+    padding: 15px 20px;
+    background-color: #2D2D2D;
+    color: white;
+    border: 0;
+    outline: 0;
+    align-self: center;
+}
+
+.footer-section>div h2{
+    font-family: 'Epilogue', sans-serif;
+    font-size: 26px;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 42px;
+    color: #2D2D2D;
+}
+.footer-section>div p{
+    font-family: 'Epilogue', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    color: #2D2D2D;
+    margin-bottom: 20px;
+}
+
+.footer-section>div i{
+    width: 36px;
+    height: 36px;
+    font-size: 24px;
+    color: black;
+}
+
+
